@@ -1,11 +1,26 @@
 import unittest
 
-class MyApp(unittest.TestCase):
+def login_verification(username, password):
+    if username == "admin" and password =="12345":
+        return True
+    else:
+        return False
 
-    def test_case1(selfself):
-        pass
-    def test_case2(selfself):
-        pass
+
+def login(param, param1):
+    pass
+
+
+class verification(unittest.TestCase):
+    def test_login(self):
+        result = login("admin","12345")
+        self.assertTrue(result)
+
+
+
+
+
+
 
 if __name__=="__main__":
         unittest.main()
