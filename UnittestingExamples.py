@@ -1,5 +1,11 @@
-def add(a,b):
-    return a+b;
+import unittest
 
-result=add(23752,332)
-print(result)
+class MyApp(unittest.TestCase):
+
+    def test_case1(selfself):
+        pass
+    def test_case2(selfself):
+        pass
+
+if __name__=="__main__":
+        unittest.main()
